@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const Tourist = mongoose.model('Tourist');
+const Tourist = require('../models/tourist.model');
 const bcrypt = require('bcryptjs');
 const io = require('../server');
 
