@@ -2,7 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const Tourist = require('../models/tourist.model');
 const bcrypt = require('bcrypt');
-const io = require('../server');
+const io = require('../index'); 
+
 
 exports.createTourist = async(req, res) => {
     try {
